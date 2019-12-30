@@ -5,7 +5,7 @@
 * 第二课 clang xcode调试
 * 第三课 llvm词法分析 
 * 第四课 llvm语法分析
-* 第五课 解释器实现
+* 第五课 单个函数的解释器实现
 # 第二章 llvm混淆与ollvm使用
 * 第六课 llvm pass
 * 第七课 ollvm编译
