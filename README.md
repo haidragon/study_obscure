@@ -10,6 +10,8 @@
 * 第六课 llvm pass
 * 第七课 ollvm编译
 * 第八课 ollvm 集成android(ndk)
-* 第九课 ollvm 集成ios
+* 第九课 ollvm android中使用
+* 第九课 ollvm ios中使用
 * 第九课 ollvm 在其它平台上的使用
 # 第三章 ollvm反混淆
+# 第四章 Unicorn
