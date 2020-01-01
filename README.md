@@ -2,7 +2,7 @@
 混淆反混淆
 # 第一章 llvm项目简单使用
 * 第一课  llvm项目 编译(windows xcode)
-* 
+* https://github.com/haidragon/study_obscure/blob/master/llvm_note/class1/note.md
 * 第二课  clang编译与调试(xcode)
 * 第三课  llvm-词法分析 
 * 第四课  llvm-语法分析
