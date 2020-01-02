@@ -5,6 +5,8 @@
 * 链接: https://pan.baidu.com/s/1ILvoVripdAcHF9NLKJYZ2A 提取码: 9ti3  
 * https://github.com/haidragon/study_obscure/blob/master/llvm_note/class1/note.md
 * 第二课  clang编译与调试(xcode)
+* 链接: https://pan.baidu.com/s/1MHvB4IysZ0v_0vMz1NJOhA 提取码: vibs  
+* https://github.com/haidragon/study_obscure/blob/master/llvm_note/class2/note.md
 * 第三课  llvm-词法分析 
 * 第四课  llvm-语法分析
 * 第五课 单个函数的解释器实现
