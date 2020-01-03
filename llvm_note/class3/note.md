@@ -1,6 +1,19 @@
-# 第二课 clang编译与调试(xcode)
+# 第三课 clang插件编写
+* https://github.com/llvm-mirror/llvm
+```
+mkdir llvm_build; cd llvm_build
+cmake -G Xcode ../llvm -DCMAKE_BUILD_TYPE:STRING=MinSizeRel
 
+```
 * github clone 
+```
+git clone -b release_90 https://github.com/llvm-mirror/llvm.git
+git clone -b release_90 https://github.com/llvm-mirror/clang.git llvm/tools/clang
+git clone -b release_90 https://github.com/llvm-mirror/compiler-rt.git llvm/projects/compiler-rt
+git clone -b release_90 https://github.com/llvm-mirror/clang-tools-extra.git llvm/tools/clang/extra
+
+```
+* github error
 ```
 [haidragon@haidragondeMacBook-Pro]: /Users/haidragon   
 ➜  git config --global user.name haidragon                                   [2020-01-03 16:04:08] 
