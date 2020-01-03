@@ -8,6 +8,7 @@
 * 链接: https://pan.baidu.com/s/1MHvB4IysZ0v_0vMz1NJOhA 提取码: vibs  
 * https://github.com/haidragon/study_obscure/blob/master/llvm_note/class2/note.md
 * 第三课  clang插件编写
+* https://github.com/haidragon/study_obscure/blob/master/llvm_note/class3/note.md
 * 第四课  clang添加自定义的 attribute
 * 第五课  实现一个自定义检查规范的 Clang 插件
 * 第六课  llvm-词法分析 
