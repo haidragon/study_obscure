@@ -1,4 +1,7 @@
 # 第二课 clang编译与调试(xcode)
+```
+./clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -load -Xclang ./libMyPlugin.a -Xclang -add-plugin -Xclang MyPlugin -c /Users/haidragon/Desktop/llvm_note/class3/testcpp/testcpp/main.cpp -o main
+
 add_clang_library(MyPlugin
 MyPlugin.cpp
 SHARED
@@ -13,7 +16,7 @@ if(LLVM_ENABLE_PLUGINS AND (WIN32 OR CYGWIN))
     LLVMSupport
     )
 endif()
-
+```
 
 ```
 [haidragon@haidragondeMacBook-Pro]: /Users/haidragon   
