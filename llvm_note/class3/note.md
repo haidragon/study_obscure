@@ -1,23 +1,6 @@
 # 第二课 clang编译与调试(xcode)
-```
-./clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -load -Xclang ./libMyPlugin.a -Xclang -add-plugin -Xclang MyPlugin -c /Users/haidragon/Desktop/llvm_note/class3/testcpp/testcpp/main.cpp -o main
 
-add_clang_library(MyPlugin
-MyPlugin.cpp
-SHARED
-)
-
-if(LLVM_ENABLE_PLUGINS AND (WIN32 OR CYGWIN))
-  target_link_libraries(MyPlugin PRIVATE
-    clangAST
-    clangBasic
-    clangFrontend
-    clangLex
-    LLVMSupport
-    )
-endif()
-```
-
+* github clone 
 ```
 [haidragon@haidragondeMacBook-Pro]: /Users/haidragon   
 ➜  git config --global user.name haidragon                                   [2020-01-03 16:04:08] 
@@ -57,6 +40,13 @@ The file /Users/haidragon/Xcode does not exist.
 ➜  git clone -b release_90 git@github.com:llvm-mirror/llvm.git llvm          [2020-01-03 16:06:46] 
 fatal: destination path 'llvm' already exists and is not an empty directory.
 ```
-
+* 插件
+```
+./clang++ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -load -Xclang ./MyPlugin.dylib -Xclang -add-plugin -Xclang MyPlugin -c /Users/haidragon/Desktop/llvm_note/class3/testcpp/testcpp/main.cpp
+```
+* 参考 
+* https://www.cnblogs.com/yun6853992/p/9348540.html
+* https://blog.csdn.net/qq_43768946/article/details/90411154
+* https://blog.csdn.net/taishanduba/article/details/57507176
 
 
