@@ -1,4 +1,20 @@
 # 第二课 clang编译与调试(xcode)
+add_clang_library(MyPlugin
+MyPlugin.cpp
+SHARED
+)
+
+if(LLVM_ENABLE_PLUGINS AND (WIN32 OR CYGWIN))
+  target_link_libraries(MyPlugin PRIVATE
+    clangAST
+    clangBasic
+    clangFrontend
+    clangLex
+    LLVMSupport
+    )
+endif()
+
+
 ```
 [haidragon@haidragondeMacBook-Pro]: /Users/haidragon   
 ➜  git config --global user.name haidragon                                   [2020-01-03 16:04:08] 
