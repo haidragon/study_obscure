@@ -14,15 +14,16 @@
 * https://github.com/haidragon/study_obscure/blob/master/llvm_note/class4/note.md
 * 第五课  llvm-词法分析 
 * 第六课  llvm-语法分析
-* 第八课 单个函数的解释器实现
-# 第二章 llvm混淆与ollvm使用
-* 第六课  llvm pass
-* 第七课  ollvm编译
-* 第八课  ollvm 集成android(ndk)
-* 第九课  ollvm android中使用
-* 第十课  ollvm 集成ios
-* 第十一课 ollvm ios中使用
-* 第十二课 ollvm 在其它平台上的使用
+* 第七课  单个函数的解释器实现
+# 第二章 llvm与ollvm混淆使用
+* 第八课  llvm pass 编译与调试
+* https://github.com/haidragon/study_obscure/blob/master/llvm_note/class5/note.md
+* 第九课  ollvm编译
+* 第十课  ollvm 集成android(ndk)
+* 第十一课  ollvm android中使用
+* 第十二课  ollvm 集成ios
+* 第十三课 ollvm ios中使用
+* 第十四课 ollvm 在其它平台上的使用
 # 第三章 ollvm反混淆
 # 第四章 Unicorn
 # 视频持续更新.......  
