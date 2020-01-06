@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B65979B23C2CF9900075A7C /* test_clang.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B65979A23C2CF9900075A7C /* test_clang.m */; };
+		4B65979C23C2CF9900075A7C /* test_clang.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B65979A23C2CF9900075A7C /* test_clang.m */; };
+		4B65979D23C2CF9900075A7C /* test_clang.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B65979A23C2CF9900075A7C /* test_clang.m */; };
+		4BCE97EF23C1B88900F8F7F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE97EE23C1B88900F8F7F7 /* AppDelegate.m */; };
+		4BCE97F223C1B88900F8F7F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE97F123C1B88900F8F7F7 /* ViewController.m */; };
+		4BCE97F423C1B88A00F8F7F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BCE97F323C1B88A00F8F7F7 /* Assets.xcassets */; };
+		4BCE97F723C1B88A00F8F7F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BCE97F523C1B88A00F8F7F7 /* Main.storyboard */; };
+		4BCE97FA23C1B88A00F8F7F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE97F923C1B88A00F8F7F7 /* main.m */; };
+		4BCE980523C1B88A00F8F7F7 /* testclangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE980423C1B88A00F8F7F7 /* testclangTests.m */; };
+		4BCE981023C1B88A00F8F7F7 /* testclangUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE980F23C1B88A00F8F7F7 /* testclangUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BCE980123C1B88A00F8F7F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BCE97E223C1B88900F8F7F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BCE97E923C1B88900F8F7F7;
+			remoteInfo = testclang;
+		};
+		4BCE980C23C1B88A00F8F7F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BCE97E223C1B88900F8F7F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BCE97E923C1B88900F8F7F7;
+			remoteInfo = testclang;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B65979923C2CF9900075A7C /* test_clang.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test_clang.h; sourceTree = "<group>"; };
+		4B65979A23C2CF9900075A7C /* test_clang.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_clang.m; sourceTree = "<group>"; };
+		4BCE97EA23C1B88900F8F7F7 /* testclang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testclang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCE97ED23C1B88900F8F7F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4BCE97EE23C1B88900F8F7F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4BCE97F023C1B88900F8F7F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4BCE97F123C1B88900F8F7F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4BCE97F323C1B88A00F8F7F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BCE97F623C1B88A00F8F7F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BCE97F823C1B88A00F8F7F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BCE97F923C1B88A00F8F7F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4BCE97FB23C1B88A00F8F7F7 /* testclang.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = testclang.entitlements; sourceTree = "<group>"; };
+		4BCE980023C1B88A00F8F7F7 /* testclangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testclangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCE980423C1B88A00F8F7F7 /* testclangTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testclangTests.m; sourceTree = "<group>"; };
+		4BCE980623C1B88A00F8F7F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BCE980B23C1B88A00F8F7F7 /* testclangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testclangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCE980F23C1B88A00F8F7F7 /* testclangUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testclangUITests.m; sourceTree = "<group>"; };
+		4BCE981123C1B88A00F8F7F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BCE97E723C1B88900F8F7F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCE97FD23C1B88A00F8F7F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCE980823C1B88A00F8F7F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BCE97E123C1B88900F8F7F7 = {
+			isa = PBXGroup;
+			children = (
+				4BCE97EC23C1B88900F8F7F7 /* testclang */,
+				4BCE980323C1B88A00F8F7F7 /* testclangTests */,
+				4BCE980E23C1B88A00F8F7F7 /* testclangUITests */,
+				4BCE97EB23C1B88900F8F7F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BCE97EB23C1B88900F8F7F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BCE97EA23C1B88900F8F7F7 /* testclang.app */,
+				4BCE980023C1B88A00F8F7F7 /* testclangTests.xctest */,
+				4BCE980B23C1B88A00F8F7F7 /* testclangUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BCE97EC23C1B88900F8F7F7 /* testclang */ = {
+			isa = PBXGroup;
+			children = (
+				4BCE97ED23C1B88900F8F7F7 /* AppDelegate.h */,
+				4BCE97EE23C1B88900F8F7F7 /* AppDelegate.m */,
+				4BCE97F023C1B88900F8F7F7 /* ViewController.h */,
+				4BCE97F123C1B88900F8F7F7 /* ViewController.m */,
+				4BCE97F323C1B88A00F8F7F7 /* Assets.xcassets */,
+				4BCE97F523C1B88A00F8F7F7 /* Main.storyboard */,
+				4BCE97F823C1B88A00F8F7F7 /* Info.plist */,
+				4BCE97F923C1B88A00F8F7F7 /* main.m */,
+				4BCE97FB23C1B88A00F8F7F7 /* testclang.entitlements */,
+				4B65979923C2CF9900075A7C /* test_clang.h */,
+				4B65979A23C2CF9900075A7C /* test_clang.m */,
+			);
+			path = testclang;
+			sourceTree = "<group>";
+		};
+		4BCE980323C1B88A00F8F7F7 /* testclangTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BCE980423C1B88A00F8F7F7 /* testclangTests.m */,
+				4BCE980623C1B88A00F8F7F7 /* Info.plist */,
+			);
+			path = testclangTests;
+			sourceTree = "<group>";
+		};
+		4BCE980E23C1B88A00F8F7F7 /* testclangUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BCE980F23C1B88A00F8F7F7 /* testclangUITests.m */,
+				4BCE981123C1B88A00F8F7F7 /* Info.plist */,
+			);
+			path = testclangUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BCE97E923C1B88900F8F7F7 /* testclang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BCE981423C1B88A00F8F7F7 /* Build configuration list for PBXNativeTarget "testclang" */;
+			buildPhases = (
+				4BCE97E623C1B88900F8F7F7 /* Sources */,
+				4BCE97E723C1B88900F8F7F7 /* Frameworks */,
+				4BCE97E823C1B88900F8F7F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testclang;
+			productName = testclang;
+			productReference = 4BCE97EA23C1B88900F8F7F7 /* testclang.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BCE97FF23C1B88A00F8F7F7 /* testclangTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BCE981723C1B88A00F8F7F7 /* Build configuration list for PBXNativeTarget "testclangTests" */;
+			buildPhases = (
+				4BCE97FC23C1B88A00F8F7F7 /* Sources */,
+				4BCE97FD23C1B88A00F8F7F7 /* Frameworks */,
+				4BCE97FE23C1B88A00F8F7F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BCE980223C1B88A00F8F7F7 /* PBXTargetDependency */,
+			);
+			name = testclangTests;
+			productName = testclangTests;
+			productReference = 4BCE980023C1B88A00F8F7F7 /* testclangTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BCE980A23C1B88A00F8F7F7 /* testclangUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BCE981A23C1B88A00F8F7F7 /* Build configuration list for PBXNativeTarget "testclangUITests" */;
+			buildPhases = (
+				4BCE980723C1B88A00F8F7F7 /* Sources */,
+				4BCE980823C1B88A00F8F7F7 /* Frameworks */,
+				4BCE980923C1B88A00F8F7F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BCE980D23C1B88A00F8F7F7 /* PBXTargetDependency */,
+			);
+			name = testclangUITests;
+			productName = testclangUITests;
+			productReference = 4BCE980B23C1B88A00F8F7F7 /* testclangUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BCE97E223C1B88900F8F7F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = haidragon;
+				TargetAttributes = {
+					4BCE97E923C1B88900F8F7F7 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					4BCE97FF23C1B88A00F8F7F7 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 4BCE97E923C1B88900F8F7F7;
+					};
+					4BCE980A23C1B88A00F8F7F7 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 4BCE97E923C1B88900F8F7F7;
+					};
+				};
+			};
+			buildConfigurationList = 4BCE97E523C1B88900F8F7F7 /* Build configuration list for PBXProject "testclang" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BCE97E123C1B88900F8F7F7;
+			productRefGroup = 4BCE97EB23C1B88900F8F7F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BCE97E923C1B88900F8F7F7 /* testclang */,
+				4BCE97FF23C1B88A00F8F7F7 /* testclangTests */,
+				4BCE980A23C1B88A00F8F7F7 /* testclangUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BCE97E823C1B88900F8F7F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCE97F423C1B88A00F8F7F7 /* Assets.xcassets in Resources */,
+				4BCE97F723C1B88A00F8F7F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCE97FE23C1B88A00F8F7F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCE980923C1B88A00F8F7F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BCE97E623C1B88900F8F7F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCE97F223C1B88900F8F7F7 /* ViewController.m in Sources */,
+				4BCE97FA23C1B88A00F8F7F7 /* main.m in Sources */,
+				4BCE97EF23C1B88900F8F7F7 /* AppDelegate.m in Sources */,
+				4B65979B23C2CF9900075A7C /* test_clang.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCE97FC23C1B88A00F8F7F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCE980523C1B88A00F8F7F7 /* testclangTests.m in Sources */,
+				4B65979C23C2CF9900075A7C /* test_clang.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCE980723C1B88A00F8F7F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCE981023C1B88A00F8F7F7 /* testclangUITests.m in Sources */,
+				4B65979D23C2CF9900075A7C /* test_clang.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BCE980223C1B88A00F8F7F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BCE97E923C1B88900F8F7F7 /* testclang */;
+			targetProxy = 4BCE980123C1B88A00F8F7F7 /* PBXContainerItemProxy */;
+		};
+		4BCE980D23C1B88A00F8F7F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BCE97E923C1B88900F8F7F7 /* testclang */;
+			targetProxy = 4BCE980C23C1B88A00F8F7F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BCE97F523C1B88A00F8F7F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BCE97F623C1B88A00F8F7F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BCE981223C1B88A00F8F7F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-Xclang",
+					"-load",
+					"-Xclang",
+					/Users/haidragon/Desktop/llvm_build/Debug/bin/CodeChecker.dylib,
+					"-Xclang",
+					"-add-plugin",
+					"-Xclang",
+					CodeChecker,
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4BCE981323C1B88A00F8F7F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_CFLAGS = (
+					"-Xclang",
+					"-load",
+					"-Xclang",
+					/Users/haidragon/Desktop/llvm_build/Debug/bin/CodeChecker.dylib,
+					"-Xclang",
+					"-add-plugin",
+					"-Xclang",
+					CodeChecker,
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4BCE981523C1B88A00F8F7F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CC = /Users/haidragon/Desktop/llvm_build/Debug/bin/clang;
+				CODE_SIGN_ENTITLEMENTS = testclang/testclang.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				CXX = "/Users/haidragon/Desktop/llvm_build/Debug/bin/clang++";
+				DEVELOPMENT_TEAM = JQWK8YZCBB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = testclang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"-Xclang",
+					"-load",
+					"-Xclang",
+					/Users/haidragon/Desktop/llvm_build/Debug/lib/CodeChecker.dylib,
+					"-Xclang",
+					"-add-plugin",
+					"-Xclang",
+					CodeChecker,
+					"-isysroot",
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = con.test.haidragon.testclang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4BCE981623C1B88A00F8F7F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CC = /Users/haidragon/Desktop/llvm_build/Debug/bin/clang;
+				CODE_SIGN_ENTITLEMENTS = testclang/testclang.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				CXX = "/Users/haidragon/Desktop/llvm_build/Debug/bin/clang++";
+				DEVELOPMENT_TEAM = JQWK8YZCBB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = testclang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"-Xclang",
+					"-load",
+					"-Xclang",
+					/Users/haidragon/Desktop/llvm_build/Debug/lib/CodeChecker.dylib,
+					"-Xclang",
+					"-add-plugin",
+					"-Xclang",
+					CodeChecker,
+					"-isysroot",
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = con.test.haidragon.testclang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4BCE981823C1B88A00F8F7F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JQWK8YZCBB;
+				INFOPLIST_FILE = testclangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = con.test.haidragon.testclangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testclang.app/Contents/MacOS/testclang";
+			};
+			name = Debug;
+		};
+		4BCE981923C1B88A00F8F7F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JQWK8YZCBB;
+				INFOPLIST_FILE = testclangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = con.test.haidragon.testclangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testclang.app/Contents/MacOS/testclang";
+			};
+			name = Release;
+		};
+		4BCE981B23C1B88A00F8F7F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JQWK8YZCBB;
+				INFOPLIST_FILE = testclangUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = con.test.haidragon.testclangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = testclang;
+			};
+			name = Debug;
+		};
+		4BCE981C23C1B88A00F8F7F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JQWK8YZCBB;
+				INFOPLIST_FILE = testclangUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = con.test.haidragon.testclangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = testclang;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BCE97E523C1B88900F8F7F7 /* Build configuration list for PBXProject "testclang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCE981223C1B88A00F8F7F7 /* Debug */,
+				4BCE981323C1B88A00F8F7F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BCE981423C1B88A00F8F7F7 /* Build configuration list for PBXNativeTarget "testclang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCE981523C1B88A00F8F7F7 /* Debug */,
+				4BCE981623C1B88A00F8F7F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BCE981723C1B88A00F8F7F7 /* Build configuration list for PBXNativeTarget "testclangTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCE981823C1B88A00F8F7F7 /* Debug */,
+				4BCE981923C1B88A00F8F7F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BCE981A23C1B88A00F8F7F7 /* Build configuration list for PBXNativeTarget "testclangUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCE981B23C1B88A00F8F7F7 /* Debug */,
+				4BCE981C23C1B88A00F8F7F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BCE97E223C1B88900F8F7F7 /* Project object */;
+}
