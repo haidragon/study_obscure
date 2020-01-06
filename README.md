@@ -11,6 +11,7 @@
 * 链接: https://pan.baidu.com/s/1iwi0AIcis8M8ZBIBg27Nwg 提取码: e8k8 
 * https://github.com/haidragon/study_obscure/blob/master/llvm_note/class3/note.md
 * 第四课  实现一个自定义检查规范的 Clang 插件
+* https://github.com/haidragon/study_obscure/blob/master/llvm_note/class4/note.md
 * 第五课  llvm-词法分析 
 * 第六课  llvm-语法分析
 * 第八课 单个函数的解释器实现
