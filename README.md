@@ -11,12 +11,14 @@
 * 链接: https://pan.baidu.com/s/1iwi0AIcis8M8ZBIBg27Nwg 提取码: e8k8 
 * https://github.com/haidragon/study_obscure/blob/master/llvm_note/class3/note.md
 * 第四课  实现一个自定义检查规范的 Clang 插件
+* 链接: https://pan.baidu.com/s/1rWOowwOMAm2SrOh-nxPT6w 提取码: gzva
 * https://github.com/haidragon/study_obscure/blob/master/llvm_note/class4/note.md
 * 第五课  llvm-词法分析 
 * 第六课  llvm-语法分析
 * 第七课  单个函数的解释器实现
 # 第二章 llvm与ollvm混淆使用
 * 第八课  llvm pass 编译与调试
+* 链接: https://pan.baidu.com/s/1yMFw-FlG_-eXRCJl25tNXg 提取码: cfms 
 * https://github.com/haidragon/study_obscure/blob/master/llvm_note/class5/note.md
 * 第九课  ollvm编译
 * 第十课  ollvm 集成android(ndk)
