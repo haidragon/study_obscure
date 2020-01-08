@@ -29,7 +29,7 @@
 * https://github.com/haidragon/study_obscure/blob/master/llvm_note/class10/note.md
 * 第十一课  ollvm android中使用
 * https://github.com/haidragon/study_obscure/blob/master/llvm_note/class11/note.md
-* 第十二课  ollvm 集成ios
+* 第十二课  ollvm 集成xcode
 * https://github.com/haidragon/study_obscure/blob/master/llvm_note/class12/note.md
 * 第十三课  ollvm ios中使用
 * https://github.com/haidragon/study_obscure/blob/master/llvm_note/class13/note.md
