@@ -23,7 +23,7 @@
 * 第八课  llvm pass 编译与调试
 * 链接: https://pan.baidu.com/s/1yMFw-FlG_-eXRCJl25tNXg 提取码: cfms 
 * https://github.com/haidragon/study_obscure/blob/master/llvm_note/class5/note.md
-* 第九课  ollvm编译
+* 第九课  ollvm编译(mac/linux)
 * https://github.com/haidragon/study_obscure/blob/master/llvm_note/class9/note.md
 * 第十课  ollvm 集成android(ndk)
 * https://github.com/haidragon/study_obscure/blob/master/llvm_note/class10/note.md
