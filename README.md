@@ -14,14 +14,19 @@
 * 链接: https://pan.baidu.com/s/1rWOowwOMAm2SrOh-nxPT6w 提取码: gzva
 * https://github.com/haidragon/study_obscure/blob/master/llvm_note/class4/note.md
 * 第五课  llvm-词法分析 
+* https://github.com/haidragon/study_obscure/blob/master/llvm_note/class_5/note.md
 * 第六课  llvm-语法分析
+* https://github.com/haidragon/study_obscure/blob/master/llvm_note/class_6/note.md
 * 第七课  单个函数的解释器实现
+* https://github.com/haidragon/study_obscure/blob/master/llvm_note/class_7/note.md
 # 第二章 llvm与ollvm混淆使用
 * 第八课  llvm pass 编译与调试
 * 链接: https://pan.baidu.com/s/1yMFw-FlG_-eXRCJl25tNXg 提取码: cfms 
 * https://github.com/haidragon/study_obscure/blob/master/llvm_note/class5/note.md
 * 第九课  ollvm编译
+* https://github.com/haidragon/study_obscure/blob/master/llvm_note/class9/note.md
 * 第十课  ollvm 集成android(ndk)
+* https://github.com/haidragon/study_obscure/blob/master/llvm_note/class10/note.md
 * 第十一课  ollvm android中使用
 * 第十二课  ollvm 集成ios
 * 第十三课 ollvm ios中使用
