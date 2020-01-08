@@ -28,10 +28,15 @@
 * 第十课  ollvm 集成android(ndk)
 * https://github.com/haidragon/study_obscure/blob/master/llvm_note/class10/note.md
 * 第十一课  ollvm android中使用
+* https://github.com/haidragon/study_obscure/blob/master/llvm_note/class11/note.md
 * 第十二课  ollvm 集成ios
+* https://github.com/haidragon/study_obscure/blob/master/llvm_note/class12/note.md
 * 第十三课  ollvm ios中使用
+* https://github.com/haidragon/study_obscure/blob/master/llvm_note/class13/note.md
 * 第十四课  ollvm 在windows上的使用
+* https://github.com/haidragon/study_obscure/blob/master/llvm_note/class14/note.md
 * 第十五课  ollvm 在驱动中的应用
+* https://github.com/haidragon/study_obscure/blob/master/llvm_note/class15/note.md
 # 第三章 ollvm反混淆
 # 第四章 Unicorn
 # 视频持续更新.......  
