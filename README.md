@@ -29,8 +29,9 @@
 * https://github.com/haidragon/study_obscure/blob/master/llvm_note/class10/note.md
 * 第十一课  ollvm android中使用
 * 第十二课  ollvm 集成ios
-* 第十三课 ollvm ios中使用
-* 第十四课 ollvm 在其它平台上的使用
+* 第十三课  ollvm ios中使用
+* 第十四课  ollvm 在windows上的使用
+* 第十五课  ollvm 在驱动中的应用
 # 第三章 ollvm反混淆
 # 第四章 Unicorn
 # 视频持续更新.......  
