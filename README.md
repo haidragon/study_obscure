@@ -41,6 +41,9 @@
 # 第三章 ollvm反混淆
 # 第四章 Unicorn
 # 视频持续更新.......  
+# 其它教程
+* study_firewall https://github.com/haidragon/study_firewall
+* study_frida https://github.com/haidragon/study_frida
 * 有的课题可能没第一时在这写，可以关注我微博 [haidragonx](https://weibo.com/haidragon)同时我也会出其它教程，比如 主动防御(window驱动/linux驱动/mac驱动）、android/ios逆向、流量分析等等 有任何问题。可以联系作者
 * qq：2207344074
 * 如果表示感谢或者支持 可以请作者吃饭
