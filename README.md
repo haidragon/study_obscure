@@ -38,8 +38,10 @@
 * https://github.com/haidragon/study_obscure/blob/master/llvm_note/class14/note.md
 * 第十五课  ollvm 在驱动中的应用
 * https://github.com/haidragon/study_obscure/blob/master/llvm_note/class15/note.md
-# 第三章 ollvm反混淆
-# 第四章 Unicorn
+# 第三章 ollvm源码分析
+* 
+# 第四章 ollvm反混淆
+# 第五章 Unicorn
 # 视频持续更新.......  
 # 其它教程
 * study_firewall https://github.com/haidragon/study_firewall
