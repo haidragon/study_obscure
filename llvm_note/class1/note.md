@@ -29,9 +29,9 @@ cmake -DLLVM_ENABLE_PROJECTS=clang -G "Xcode" ../llvm
 ## 说明
     建议用git上的项目，直接下载官网的项目生成Xcode环境编译会出现各种问题，命令行是没有问题。
 ## windows vs项目
-* 命令行 （用cywin)
+* 命令行 （用cygwin)
 ```
-git clone https://github.com/llvm/llvm-project
+git clone https://github.com/llvm/llvm-project -b xxx
 cd llvm-project
 mkdir build
 cd build
